@@ -1,6 +1,6 @@
 
 
-export function generateLocalRecipe({ ingredients, dietaryRestrictions, cookingTime, servings }) {
+export function generateLocalRecipe({ ingredients, cookingTime, servings }) {
   const ingList = ingredients
     .split(",")
     .map((ing) => ing.trim())
