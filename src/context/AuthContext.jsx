@@ -16,7 +16,7 @@ export default function AuthProvider({ children }) {
   }, []);
 
   const login = (email) => {
-    const fakeToken = "123456"; // 🔹 pretend token
+    const fakeToken = "123456"; // its fake token
     const fakeUser = { name: email.split("@")[0], role: "user" };
 
     localStorage.setItem("token", fakeToken);
